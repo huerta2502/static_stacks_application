@@ -231,4 +231,6 @@ void main() {
 	} while(go == 's');
     clearIntStack(newIntStack);
     clearCharStack(newCharStack);
+	free(newIntStack);
+	free(newCharStack);
 }
