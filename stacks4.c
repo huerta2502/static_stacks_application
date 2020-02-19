@@ -178,16 +178,16 @@ void main() {
 				printIntStack(newIntStack);
 				break;
 			case 5:
-				printf("%c\n", peekCharStack(newCharStack));
+				printf("Peeked: %c\n", peekCharStack(newCharStack));
 				break;
 			case 6:
-				printf("%d\n", peekIntStack(newIntStack));
+				printf("Peeked: %d\n", peekIntStack(newIntStack));
 				break;
 			case 7:
-				printf("%c\n", popCharStack(newCharStack));
+				printf("Popped: %c\n", popCharStack(newCharStack));
 				break;
 			case 8:
-				printf("%d\n", popIntStack(newIntStack));
+				printf("Popped: %d\n", popIntStack(newIntStack));
 				break;
 			case 9:
 				if(newCharStack != NULL){
@@ -215,10 +215,10 @@ void main() {
 				clearIntStack(newIntStack);
 				break;
 			case 13:
-				printf("%d\n", newCharStack->top);
+				printf("Top: %d\n", newCharStack->top);
 				break;
 			case 14:
-				printf("%d\n", newIntStack->top);
+				printf("Top: %d\n", newIntStack->top);
 				break;
 			default:
 				puts("Operación inválida");
